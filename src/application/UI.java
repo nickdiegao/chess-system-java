@@ -67,7 +67,7 @@ public class UI {
 		System.out.println();
 		System.out.println("Turn: " + chessmatch.getTurn());
 		if (!chessmatch.getCheckMate()) {
-			System.out.println("Wainting for player: " + chessmatch.getCurrentePlayer());
+			System.out.println("Waiting for player: " + chessmatch.getCurrentePlayer());
 			if (chessmatch.getCheck()) {
 				System.out.println("CHECK!");
 			}
